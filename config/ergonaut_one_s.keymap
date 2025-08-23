@@ -45,20 +45,20 @@
         nav_layer {
             display-name = "NAV";
             bindings = <
-&kp EXCLAMATION                &kp AT_SIGN       &kp HASH   &kp DOLLAR      &kp PERCENT  &kp CARET             &kp AMPERSAND          &kp UP_ARROW      &kp MINUS          &kp EQUAL
-&hm LEFT_SHIFT LS(CAPSLOCK)    &kp LEFT_CONTROL  &kp LG(P)  &none           &kp HOME     &kp ASTERISK          &kp LEFT               &kp DOWN          &kp RIGHT          &kp NON_US_BACKSLASH
-&hm LC(CAPSLOCK) LA(CAPSLOCK)  &none             &none      &none           &kp END      &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp SQT
-                                                            &kp LEFT_SHIFT  &none        &none                 &kp DEL                &kp ENTER         &none
+&kp EXCLAMATION                &kp AT_SIGN       &kp HASH   &kp DOLLAR       &kp PERCENT  &kp CARET             &kp AMPERSAND          &kp UP_ARROW      &kp MINUS          &kp EQUAL
+&hm LEFT_SHIFT LS(CAPSLOCK)    &kp LEFT_CONTROL  &kp LG(D)  &kp LA(LS(TAB))  &kp HOME     &kp ASTERISK          &kp LEFT               &kp DOWN          &kp RIGHT          &kp NON_US_BACKSLASH
+&hm LC(CAPSLOCK) LA(CAPSLOCK)  &kp LG(P)         &kp LG(E)  &kp LS(LA(TAB))  &kp END      &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp SQT
+                                                            &kp LEFT_SHIFT   &none        &none                 &kp DEL                &kp ENTER         &none
             >;
         };
 
         mouse_layer {
             display-name = "MOUSE";
             bindings = <
-&hm F1 NUMBER_1  &hm F2 NUMBER_2  &hm F3 NUMBER_3  &hm F4 NUMBER_4  &hm F5 N5  &hm F6 NUMBER_6     &hm F7 N7               &hm F8 N8        &hm F9 N9  &hm F10 N0
-&kp LC(A)        &kp LC(S)        &kp LC(D)        &kp LC(F)        &kp LC(G)  &kp LC(LA(DELETE))  &kp LEFT_WIN            &kp PRINTSCREEN  &kp HOME   &kp PAGE_UP
-&kp LC(Z)        &kp LC(X)        &kp LC(C)        &kp LC(V)        &kp LC(B)  &kp CAPSLOCK        &hm RIGHT_ALT LEFT_ALT  &kt INS          &kp END    &kp PAGE_DOWN
-                                                   &mo ADJ          &none      &none               &kp BACKSPACE           &kp ENTER        &none
+&hm F1 NUMBER_1  &hm F2 NUMBER_2  &hm F3 NUMBER_3  &hm F4 NUMBER_4  &hm F5 N5  &hm F6 NUMBER_6     &hm F7 N7            &hm F8 N8        &hm F9 N9  &hm F10 N0
+&kp LC(A)        &kp LC(S)        &kp LC(D)        &kp LC(F)        &kp LC(G)  &kp LC(LA(DELETE))  &kp LEFT_WIN         &kp PRINTSCREEN  &kp HOME   &kp PAGE_UP
+&kp LC(Z)        &kp LC(X)        &kp LC(C)        &kp LC(V)        &kp LC(B)  &kp CAPSLOCK        &hm LEFT_ALT LA(F4)  &kt INS          &kp END    &kp PAGE_DOWN
+                                                   &mo ADJ          &none      &none               &kp BACKSPACE        &kp ENTER        &none
             >;
         };
 
