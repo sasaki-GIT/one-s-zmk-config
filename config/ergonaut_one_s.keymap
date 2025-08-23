@@ -55,10 +55,10 @@
         mouse_layer {
             display-name = "MOUSE";
             bindings = <
-&hm F1 NUMBER_1  &hm F2 NUMBER_2  &hm F3 NUMBER_3  &hm F4 NUMBER_4  &hm F5 N5  &hm F6 NUMBER_6     &hm F7 N7            &hm F8 N8        &hm F9 N9  &hm F10 N0
-&kp LC(A)        &kp LC(S)        &kp LC(D)        &kp LC(F)        &kp LC(G)  &kp LC(LA(DELETE))  &kp LEFT_WIN         &kp PRINTSCREEN  &kp HOME   &kp PAGE_UP
-&kp LC(Z)        &kp LC(X)        &kp LC(C)        &kp LC(V)        &kp LC(B)  &kp CAPSLOCK        &hm LEFT_ALT LA(F4)  &kt INS          &kp END    &kp PAGE_DOWN
-                                                   &mo ADJ          &none      &none               &kp BACKSPACE        &kp ENTER        &none
+&hm F1 NUMBER_1  &hm F2 NUMBER_2      &hm F3 NUMBER_3  &hm F4 NUMBER_4  &hm F5 N5  &hm F6 NUMBER_6     &hm F7 N7            &hm F8 N8        &hm F9 N9  &hm F10 N0
+&kp LC(A)        &hm LG(LS(S)) LC(S)  &kp LC(D)        &kp LC(F)        &kp LC(G)  &kp LC(LA(DELETE))  &kp LEFT_WIN         &kp PRINTSCREEN  &kp HOME   &kp PAGE_UP
+&kp LC(Z)        &kp LC(X)            &kp LC(C)        &kp LC(V)        &kp LC(B)  &kp CAPSLOCK        &hm LEFT_ALT LA(F4)  &kt INS          &kp END    &kp PAGE_DOWN
+                                                       &mo ADJ          &none      &none               &kp BACKSPACE        &kp ENTER        &none
             >;
         };
 
