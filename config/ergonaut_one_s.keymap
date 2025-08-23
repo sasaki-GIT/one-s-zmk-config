@@ -45,10 +45,10 @@
         nav_layer {
             display-name = "NAV";
             bindings = <
-&kp EXCLAMATION                &kp AT_SIGN    &kp HASH  &kp DOLLAR      &kp PERCENT  &kp CARET             &kp AMPERSAND          &kp UP_ARROW      &kp MINUS          &kp EQUAL
-&hm LEFT_SHIFT LS(CAPSLOCK)    &kp LS(LCTRL)  &none     &none           &kp HOME     &kp ASTERISK          &kp LEFT               &kp DOWN          &kp RIGHT          &kp NON_US_BACKSLASH
-&hm LC(CAPSLOCK) LA(CAPSLOCK)  &none          &none     &none           &kp END      &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp SQT
-                                                        &kp LEFT_SHIFT  &none        &none                 &kp DEL                &kp ENTER         &none
+&kp EXCLAMATION                &kp AT_SIGN       &kp HASH  &kp DOLLAR      &kp PERCENT  &kp CARET             &kp AMPERSAND          &kp UP_ARROW      &kp MINUS          &kp EQUAL
+&hm LEFT_SHIFT LS(CAPSLOCK)    &kp LEFT_CONTROL  &none     &none           &kp HOME     &kp ASTERISK          &kp LEFT               &kp DOWN          &kp RIGHT          &kp NON_US_BACKSLASH
+&hm LC(CAPSLOCK) LA(CAPSLOCK)  &none             &none     &none           &kp END      &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp SQT
+                                                           &kp LEFT_SHIFT  &none        &none                 &kp DEL                &kp ENTER         &none
             >;
         };
 
