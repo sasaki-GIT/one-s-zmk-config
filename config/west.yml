@@ -14,8 +14,12 @@ manifest:
     - name: ergonautkb-zmk-module
       remote: ergonautkb
       revision: main
+      
+    # https://github.com/kot149/zmk-layout-shift
     - name: zmk-layout-shift
       remote: kot149
       revision: v1
+      path: modules/zmk-layout-shift
+
   self:
     path: config
