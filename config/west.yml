@@ -4,7 +4,7 @@ manifest:
       url-base: https://github.com/zmkfirmware
     - name: ergonautkb
       url-base: https://github.com/ergonautkb
- projects:
+  projects:
     - name: zmk
       remote: zmkfirmware
       revision: main
